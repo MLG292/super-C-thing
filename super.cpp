@@ -19,6 +19,9 @@ int main()
     string transportation = "";
     int count = 0;
     double itsadouble = 1.343;
+    bool toggle = false;
+    char first = 'f';
+    float spooky = "1.343";
     cout << "What's your name?" << endl;
     cin >> name;
     cout << "Okay, " << name << "." << endl;
@@ -100,4 +103,5 @@ int main()
         cout << transportation << " the most, so all people used to get around town was a " << transportation << ". " << name << " didn't have a pet. So everyone didn't have one either. Despite people wanting pets, they just followed what " << name << " did and decided to not get one." << endl;
     }
     return 0;
+
 }
