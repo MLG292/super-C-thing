@@ -21,7 +21,7 @@ int main()
     double itsadouble = 1.343;
     bool toggle = false;
     char first = 'f';
-    float spooky = "1.343";
+    float spooky = 1.343;
     cout << "What's your name?" << endl;
     cin >> name;
     cout << "Okay, " << name << "." << endl;
@@ -84,24 +84,25 @@ int main()
     pause(3);
     if(answer == "yes") {
         cout << "Once upon a time there once was a person named " << name << ". " << endl;
-        pause(1);
+        pause(3);
         cout << name << " is famous in their small town of MistWood. In fact, they were so famous all their preferences made an impact on the town. " << endl;
-        pause(1);
+        pause(3);
         cout << name << "'s favorite color was " << color << ", so all the buildings were " << color << "! " << name << " also liked using a " << endl;
-        pause(1);
+        pause(3);
         cout << transportation << " the most, so all people used to get around town was a " << transportation << ". " << name << "'s favorite pet was a " << endl;
-        pause(1);
+        pause(3);
         cout << pet << " and so just like that, that's what everyone got for a pet!" << endl;
     }
     if(answer == "no") {
         cout << "Once upon a time there once was a person named " << name << ". " << endl;
-        pause(1);
+        pause(3);
         cout << name << " is famous in their small town of MistWood. In fact, they were so famous all their preferences made an impact on the town. " << endl;
-        pause(1);
+        pause(3);
         cout << name << "'s favorite color was " << color << ", so all the buildings were " << color << "! " << name << " also liked using a " << endl;
-        pause(1);
+        pause(3);
         cout << transportation << " the most, so all people used to get around town was a " << transportation << ". " << name << " didn't have a pet. So everyone didn't have one either. Despite people wanting pets, they just followed what " << name << " did and decided to not get one." << endl;
     }
     return 0;
 
 }
+
